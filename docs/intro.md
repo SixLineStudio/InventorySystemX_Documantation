@@ -33,7 +33,7 @@ In addition to the three key components, the Inventory System also includes seve
 additional functionality. These include:
 
 - **``Storage Component``** - This is a **C++** and **Blueprint** class that manages the storage of items in the
-  inventory. It is responsible for keeping track of the available slots in the storage and storing items in those slots.
+  storage. It is responsible for keeping track of the available slots in the storage and storing items in those slots.
 
 ## Inventory Component
 
@@ -42,8 +42,16 @@ inventory. It provides a set of functions that can be used to add, remove, and q
 
 The following table lists some of the key functions provided by the Inventory Component:
 
-| Function	      | Description                                                     |
-|----------------|-----------------------------------------------------------------|
-| `AddItem`      | Adds an item to the inventory                                   | 
-| `RemoveItem`   | Removes an item from the inventory                              | 
-| `GetItemCount` | Returns the number of items of a specific type in the inventory | 
+| Function	                          | Description                                                                         |
+|------------------------------------|-------------------------------------------------------------------------------------|
+| `Server_AddItem`                   | Adds an item to the inventory                                                       | 
+| `Server_RemoveItemByRef`           | Removes an item from the inventory                                                  | 
+| `FindItemInInventory`              | Finds and returns the first instance of an item of a specific type in the inventory | 
+| `GetNumberOfItems`                 | Returns the number of items of a specific type in the inventory                     | 
+| `Server_RemoveItemsOfClass`        | Removes items of a specific class from the inventory                                |
+| `GetAllItemsOfClass`               | Finds and returns all items of a specific class in the inventory                    |
+| `GetSelectedShortcutData`          | Returns information about the currently selected shortcut item                      |
+| `Server_SetSelectedShortcutAmount` | Sets the amount of the currently selected shortcut item                             |
+| `Server_AddSelectedShortcutAmount` | Adds or decreases the number of the currently selected shortcut item.               |
+| `IsShortcutItem`                   | Checks if a specified item is a shortcut item                                       | 
+
