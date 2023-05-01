@@ -28,7 +28,7 @@ Inventory System X" in it.
 
 ![Screenshot 2023-04-30 150049.png](..%2Fimages%2Fstep2%2FScreenshot%202023-04-30%20150049.png)
 
-If it's there, everything went well and you can move on to the [Next Page](Step_3_addMainСomponents).
+If it's there, everything went well and can go to the [Next Page](Step_3_addMainСomponents).
 
 ![Screenshot 2023-04-30 150148.png](..%2Fimages%2Fstep2%2FScreenshot%202023-04-30%20150148.png)
 
