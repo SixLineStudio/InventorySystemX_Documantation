@@ -106,7 +106,7 @@ const config = {
               // },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/uxhaqHXyrm',
+                href: 'https://discord.gg/tzjEdvcb',
               },
               // {
               //   label: 'Twitter',
