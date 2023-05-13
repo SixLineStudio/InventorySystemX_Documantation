@@ -80,6 +80,7 @@ The inventory system also includes several actors:
   ***IsGlobalStorage*** checkbox in the **Storage Component**. You can choose the size of the storage. Only one Global Storage can
   be placed on the map.
 
+
 ## Inventory Component
 
 The Inventory Component is the core of the Inventory System and is responsible for managing the contents of the player's
