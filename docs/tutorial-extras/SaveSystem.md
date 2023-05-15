@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 
 title: "Save And Load"
 
@@ -35,15 +35,18 @@ these variables when loading.
 
 ## Preparing Items for Save
 
+- In the **Inventory component**, you should manually add a unique identifier. This identifier should be unique
+across all characters with different inventories.
 
+![img_6.png](..%2FImages_extras%2FSave%2Fimg_6.png)
 
-- In each Storage Component, only if it is not a Global Storage, a GUID should be generated.
+- In each **Storage Component**, only if it is not a Global Storage, a GUID should be generated.
 
 ![img_3.png](..%2FImages_extras%2FStorage%2Fimg_3.png)
 
-- If you add an Actor Interaction Component somewhere, it must also have a generated GUID.
+- If you add an **Actor Interaction Component** somewhere, it must also have a generated GUID.
 
-- If you add a Scene Interaction Component, it should also have a generated GUID.
+- If you add a **Scene Interaction Component**, it should also have a generated GUID.
 
 ![img_7.png](..%2FImages_extras%2FSave%2Fimg_7.png)
 
