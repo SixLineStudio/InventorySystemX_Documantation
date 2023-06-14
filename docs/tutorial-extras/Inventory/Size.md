@@ -13,6 +13,19 @@ The main inventory widget is located in this directory:
 
 ![img.png](..%2F..%2FImages_extras%2FAppearance%2Fimg.png)
 
+:::caution
+
+In version 1.3 it was possible to change the size of the inventory in real time, so some changes that you can make in
+the widget will not work. If you are going to use real-time inventory resizing, then you can change the options in this
+function where you select the inventory size and set display options.
+
+![img_8.png](..%2F..%2FImages_extras%2FAppearance%2Fimg_8.png)
+
+If you are not going to change the size of the inventory, then you can remove this function and change all the
+parameters in the widget itself.
+
+:::
+
 ## Size
 
 Click on the slots widget and choose the desired width and height of the inventory. These parameters only affect the
