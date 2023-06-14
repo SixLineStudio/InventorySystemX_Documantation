@@ -20,7 +20,7 @@ Now you need to set the position of the inventory, the size, the location of som
 location.
 For each size, we have to do it manually. This is not the most convenient way, but I did not think of another.
 For each size, we create a separate element and feed it into an array.
-This function is located in the evnt graph in the AC Inventory HUD Component. For each size, we create a separate
+This function is located in the event graph in the AC Inventory HUD Component. For each size, we create a separate
 element and feed it into an array.
 
 ![img_8.png](..%2FImages_extras%2FAppearance%2Fimg_8.png)
