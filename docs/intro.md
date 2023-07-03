@@ -65,7 +65,7 @@ additional functionality. These include:
   the
   inventory
   and the entire world, including Storage Components, Interaction Components, and World Items. It can be added anywhere,
-  but in a multiplayer game, it is recommended to add it to the GameMode.
+  but it is recommended to add it to the GameMode.
 
 ## Actors
 
@@ -77,9 +77,9 @@ The inventory system also includes several actors:
   ability to pick it up.
 - **``Global Storage``** is a **C++** class that stores information about slots and items, which can be accessed by
   enabling the
-  ***IsGlobalStorage*** checkbox in the **Storage Component**. You can choose the size of the storage. Only one Global Storage can
+  ***IsGlobalStorage*** checkbox in the **Storage Component**. You can choose the size of the storage. Only one Global
+  Storage can
   be placed on the map.
-
 
 ## Inventory Component
 
@@ -88,17 +88,18 @@ inventory. It provides a set of functions that can be used to add, remove, and q
 
 The following table lists some of the key functions provided by the Inventory Component:
 
-| Function	                        | Description                                                                         |
-|----------------------------------|-------------------------------------------------------------------------------------|
-| Server_AddItem                   | Adds an item to the inventory                                                       | 
-| Server_RemoveItemByRef           | Removes an item from the inventory                                                  | 
-| FindItemInInventory              | Finds and returns the first instance of an item of a specific type in the inventory | 
-| GetNumberOfItems                 | Returns the number of items of a specific type in the inventory                     | 
-| CanAddItemCount                  | Returns whether a certain amount of an item can be added to the inventory           |
-| Server_RemoveItemsOfClass        | Removes items of a specific class from the inventory                                |
-| GetAllItemsOfClass               | Finds and returns all items of a specific class in the inventory                    |
-| GetSelectedShortcutData          | Returns information about the currently selected shortcut item                      |
-| Server_SetSelectedShortcutAmount | Sets the amount of the currently selected shortcut item                             |
-| Server_AddSelectedShortcutAmount | Adds or decreases the number of the currently selected shortcut item.               |
-| IsShortcutItem                   | Checks if a specified item is a shortcut item                                       | 
+| Function	                           | Description                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| Server AddItem                      | Adds an item to the inventory                                                       | 
+| Server Remove Item By Ref           | Removes an item from the inventory                                                  | 
+| Find Item In Inventory              | Finds and returns the first instance of an item of a specific type in the inventory | 
+| Get Number Of Items                 | Returns the number of items of a specific type in the inventory                     | 
+| Can Add Item Count                  | Returns whether a certain amount of an item can be added to the inventory           |
+| Server Remove Items Of Class        | Removes items of a specific class from the inventory                                |
+| Get All Items Of Class              | Finds and returns all items of a specific class in the inventory                    |
+| Get Selected Shortcut Data          | Returns information about the currently selected shortcut item                      |
+| Server Set Selected Shortcut Amount | Sets the amount of the currently selected shortcut item                             |
+| Server Add Selected Shortcut Amount | Adds or decreases the number of the currently selected shortcut item.               |
+| Is Shortcut Item                    | Checks if a specified item is a shortcut item                                       | 
 
+  
