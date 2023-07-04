@@ -60,9 +60,18 @@ Now you can place this item into an equipment slot.
 
 ![img_7.png](..%2FImages_extras%2FEquipmentSlots%2Fimg_7.png)
 
+## Delegate
+
+You can subscribe to the delegate to find out whether an item has been added or removed from any of the equipment
+slots. Additionally, you can retrieve all the equipment slots using the "Get Slots"
+function.
+
+![img_14.png](..%2FImages_extras%2FEquipmentSlots%2Fimg_14.png)
+
 ## Options
 
-In the settings, you can choose the option for automatically adding picked-up items to empty equipment slots.
+In the [Options](Inventory%2FOptions.md), you can choose the option for automatically adding picked-up items to empty
+equipment slots.
 
 ![img_8.png](..%2FImages_extras%2FEquipmentSlots%2Fimg_8.png)
 

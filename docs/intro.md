@@ -1,5 +1,7 @@
 ---
-sidebar_position: 1
+id: my-home-doc
+slug: /
+sidebar_position: 0
 ---
 
 # Inventory System Documentation

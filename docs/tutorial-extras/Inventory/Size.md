@@ -5,6 +5,16 @@ title: "Appearance"
 
 ---
 
+:::caution
+
+In order to be able to manually reposition widgets, you must turn off Runtime Resizing in the [Options](Options.md)
+
+![img_2.png](..%2F..%2FImages_extras%2FResize%2Fimg_2.png)
+
+If you are going to change the inventory size at runtime, then read this [article](..%2FRuntimeResizing.md).
+
+:::
+
 # Widget
 
 The main inventory widget is located in this directory:
@@ -12,19 +22,6 @@ The main inventory widget is located in this directory:
 - **``/Plugins/Inventory System X Content/InventorySystemX/UMG/Inventory/``**
 
 ![img.png](..%2F..%2FImages_extras%2FAppearance%2Fimg.png)
-
-:::caution
-
-In version 1.3 it was possible to change the size of the inventory in real time, so some changes that you can make in
-the widget will not work. If you are going to use real-time inventory resizing, then you can change the options in this
-function where you select the inventory size and set display options.
-
-![img_8.png](..%2F..%2FImages_extras%2FAppearance%2Fimg_8.png)
-
-If you are not going to change the size of the inventory, then you can remove this function and change all the
-parameters in the widget itself.
-
-:::
 
 ## Size
 
