@@ -7,6 +7,12 @@ title: "Tabs"
 
 # Tabs
 
+:::info
+
+You can enable or disable the display of tabs in the [Options](Inventory%2FOptions.md).
+
+:::
+
 ## Add Tab
 
 Open the WB_TabSwitcher.
