@@ -28,7 +28,7 @@ discarded.
 
 ![CanDestroy.png](..%2F..%2FImages_extras%2FCanDestroy.png)
 
-## Can Use
+## Can Use [Legacy]
 
 Can Use - Determines whether the item can be used. If it can be used, a corresponding button will appear in the context
 menu when the item is clicked. You can choose any icon and name for this button.
@@ -38,7 +38,7 @@ menu when the item is clicked. You can choose any icon and name for this button.
 
 ![CanUse2.png](..%2F..%2FImages_extras%2FCanUse2.png)
 
-## On Use Item
+## On Use Item [Legacy]
 
 On Use Item - defines the logic that will be executed when the "Use" button is clicked. You can also define whether the
 item will be removed after use or not.
