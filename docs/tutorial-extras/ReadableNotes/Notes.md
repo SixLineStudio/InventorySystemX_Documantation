@@ -11,6 +11,11 @@ Open your character's blueprint and add **AC Notes Component** to it.
 
 ![img.png](img%2Fimg.png)
 
+:::caution
+To make the widget with the lists of read notes display correctly, you need to enable the "Show Tabs" option in the
+[Options file](..%2FInventory%2FOptions.md).
+:::
+
 ## Create a note
 
 First, you need to create a new data asset. To do this, right-click in the content browser, and in the **Miscellaneous**
