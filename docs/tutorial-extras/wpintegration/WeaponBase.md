@@ -77,7 +77,7 @@ overridden.
 
 ### Can Fire
 
-It returns true if there is a sufficient number of rounds in the clip. It can be overridden.
+It returns true if there is a sufficient number of ammo in the clip. It can be overridden.
 
 ![img_10.png](img%2Fimg_10.png)
 
