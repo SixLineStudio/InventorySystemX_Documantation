@@ -58,7 +58,7 @@ An example of hiding a weapon:
 
 ## Examples Of Using
 
-In this way, you can check whether there are cartridges in the weapon and take them away during the shot.
+In this way, you can check whether there are ammo in the weapon and take them away during the shot.
 
 ![img_45.png](img%2Fimg_45.png)
 
